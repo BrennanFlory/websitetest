@@ -90,9 +90,21 @@ body {
 .poweredby img {
   display: inline-flex;
 }
-.WIP p {
+
+.wip a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.wip a:visited {
+  color: initial;
+}
+.wip p {
   margin: 9px 4px 9px 0;
   font-weight: 300;
   color: #fff;
   float: left;
+}
+.wip img {
+  display: inline-flex;
 }
